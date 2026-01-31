@@ -9,18 +9,23 @@ Exploratory data analysis of species and conservation status in U.S. National Pa
 3. How does biodiversity break down by taxonomic category?
 4. Which species families contribute most to overall biodiversity?
 
-**Data Source**  
-- Original dataset: [National Parks Species Dataset on Kaggle](https://www.kaggle.com/datasets/umerhaddii/national-park-species-dataset)  
+## Data Source
+- Original dataset: National Parks Species Dataset on Kaggle  
 - Cleaned and preprocessed in Python for analysis  
 
-**Data Cleaning & EDA**  
+## Data Cleaning & EDA
 - Cleaned and prepared the dataset in Python  
 - Handled duplicates, missing values, and standardized column names  
 - Performed exploratory data analysis (EDA) to understand species diversity, conservation status, and distribution patterns  
-- **Cleaned dataset included in this repository:** [`data/cleaned_nps_species_data.csv`](data/cleaned_nps_species_data.csv)  
+- Cleaned dataset included in this repository: [`data/cleaned_nps_species_data.csv`](data/cleaned_nps_species_data.csv)  
 
-**Usage:**  
-- This CSV was used for both Python analysis and Tableau dashboard visualizations
+## Usage
+
+ This CSV was used for both Python analysis and Tableau dashboard visualizations  
+
+## Python Analysis / EDA
+- All data cleaning, exploration, and visualizations were performed in Python  
+- Notebook / script: [`notebooks/np_species_project.py`](notebooks/np_species_project.py)
 
 ## Analysis & Visualization
 - Built an interactive Tableau dashboard to answer the four core questions
